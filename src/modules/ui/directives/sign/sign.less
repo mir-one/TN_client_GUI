@@ -1,0 +1,32 @@
+@import (reference) 'config';
+
+w-sign {
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &.split-half {
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &.data {
+      border-top: 1px solid @color-basic-200;
+      border-bottom: 1px solid @color-basic-200;
+      height: 44px;
+    }
+  }
+
+  .sign-loader {
+    height: 60px;
+
+    w-loader {
+      position: relative;
+      margin: 0 auto;
+      top: 0;
+      left: 0;
+      transform: translate(0, 0);
+    }
+  }
+}
