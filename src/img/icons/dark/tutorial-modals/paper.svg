@@ -1,34 +1,205 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>paper2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="step_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-740.000000, -519.000000)">
-        <g id="white-bg" transform="translate(330.000000, 102.000000)" fill="#5A81EA">
-            <g id="right" transform="translate(405.000000, 271.000000)">
-                <g id="LINE-5" transform="translate(4.000000, 140.000000)">
-                    <g id="paper2" transform="translate(1.000000, 5.000000)">
-                        <rect id="Rectangle-9" x="38" y="11.0261438" width="2" height="15.9738562"></rect>
-                        <rect id="Rectangle-9" x="28" y="1" width="2" height="11"></rect>
-                        <polygon id="Rectangle-9" transform="translate(34.706790, 6.707714) rotate(-45.000000) translate(-34.706790, -6.707714) " points="33.7074433 -1.77777315 34.7013478 -1.35569451 35.6987485 -0.358293725 35.7061376 13.20943 33.7074433 15.1932007"></polygon>
-                        <rect id="Rectangle-9" transform="translate(34.000000, 12.000000) rotate(90.000000) translate(-34.000000, -12.000000) " x="33" y="6" width="2" height="12"></rect>
-                        <rect id="Rectangle-9" transform="translate(14.750000, 2.000000) rotate(90.000000) translate(-14.750000, -2.000000) " x="13.75" y="-12.25" width="2" height="28.5"></rect>
-                        <rect id="Rectangle-9" transform="translate(14.875000, 11.000000) rotate(90.000000) translate(-14.875000, -11.000000) " x="13.875" y="3.375" width="2" height="15.25"></rect>
-                        <rect id="Rectangle-9" x="3.5" y="28.25" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="7.5" y="24" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="11.5" y="24" width="2" height="12"></rect>
-                        <rect id="Rectangle-9" x="15.5" y="32" width="2" height="8.75"></rect>
-                        <rect id="Rectangle-9" x="19.5" y="28" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="23.5" y="24" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="27.5" y="26" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="31.5" y="29" width="2" height="9"></rect>
-                        <rect id="Rectangle-9" x="34.5" y="26" width="2" height="5"></rect>
-                        <rect id="Rectangle-9" transform="translate(20.000000, 17.000000) rotate(90.000000) translate(-20.000000, -17.000000) " x="19" y="4" width="2" height="26"></rect>
-                        <rect id="Rectangle-9" x="0" y="1" width="2" height="32"></rect>
-                    </g>
-                </g>
-            </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="41px"
+   height="40px"
+   viewBox="0 0 41 40"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="paper.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview48"
+     showgrid="false"
+     inkscape:zoom="5.9"
+     inkscape:cx="20.5"
+     inkscape:cy="20"
+     inkscape:window-x="0"
+     inkscape:window-y="354"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="step_2" />
+  <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">paper2</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="step_2"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(-740.000000, -519.000000)">
+    <g
+       id="white-bg"
+       transform="translate(330.000000, 102.000000)"
+       fill="#5A81EA"
+       style="fill:#81d742;fill-opacity:1">
+      <g
+         id="right"
+         transform="translate(405.000000, 271.000000)"
+         style="fill:#81d742;fill-opacity:1">
+        <g
+           id="LINE-5"
+           transform="translate(4.000000, 140.000000)"
+           style="fill:#81d742;fill-opacity:1">
+          <g
+             id="paper2"
+             transform="translate(1.000000, 5.000000)"
+             style="fill:#81d742;fill-opacity:1">
+            <rect
+               id="Rectangle-9"
+               x="38"
+               y="11.0261438"
+               width="2"
+               height="15.9738562"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect9"
+               x="28"
+               y="1"
+               width="2"
+               height="11"
+               style="fill:#81d742;fill-opacity:1" />
+            <polygon
+               id="polygon11"
+               transform="translate(34.706790, 6.707714) rotate(-45.000000) translate(-34.706790, -6.707714) "
+               points="33.7074433 -1.77777315 34.7013478 -1.35569451 35.6987485 -0.358293725 35.7061376 13.20943 33.7074433 15.1932007"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect13"
+               transform="translate(34.000000, 12.000000) rotate(90.000000) translate(-34.000000, -12.000000) "
+               x="33"
+               y="6"
+               width="2"
+               height="12"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect15"
+               transform="translate(14.750000, 2.000000) rotate(90.000000) translate(-14.750000, -2.000000) "
+               x="13.75"
+               y="-12.25"
+               width="2"
+               height="28.5"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect17"
+               transform="translate(14.875000, 11.000000) rotate(90.000000) translate(-14.875000, -11.000000) "
+               x="13.875"
+               y="3.375"
+               width="2"
+               height="15.25"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect19"
+               x="3.5"
+               y="28.25"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect21"
+               x="7.5"
+               y="24"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect23"
+               x="11.5"
+               y="24"
+               width="2"
+               height="12"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect25"
+               x="15.5"
+               y="32"
+               width="2"
+               height="8.75"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect27"
+               x="19.5"
+               y="28"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect29"
+               x="23.5"
+               y="24"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect31"
+               x="27.5"
+               y="26"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect33"
+               x="31.5"
+               y="29"
+               width="2"
+               height="9"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect35"
+               x="34.5"
+               y="26"
+               width="2"
+               height="5"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect37"
+               transform="translate(20.000000, 17.000000) rotate(90.000000) translate(-20.000000, -17.000000) "
+               x="19"
+               y="4"
+               width="2"
+               height="26"
+               style="fill:#81d742;fill-opacity:1" />
+            <rect
+               id="rect39"
+               x="0"
+               y="1"
+               width="2"
+               height="32"
+               style="fill:#81d742;fill-opacity:1" />
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>
