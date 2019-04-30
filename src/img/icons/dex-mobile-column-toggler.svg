@@ -1,14 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon-blue-left</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Planshet---DEX---waves" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-357.000000, -523.000000)">
-        <g id="WAVES" transform="translate(-3.000000, 59.000000)" fill="#0055FF">
-            <g id="bord-2" transform="translate(364.000000, 470.000000) rotate(-90.000000) translate(-364.000000, -470.000000) translate(358.000000, 466.000000)">
-                <polygon id="Icon-blue-left" transform="translate(6.000000, 3.739428) rotate(-180.000000) translate(-6.000000, -3.739428) " points="6 7.47885571 12 1.48764795 10.510581 -1.68126429e-13 6 4.5035598 1.48941896 1.12084286e-12 -1.56918e-12 1.48764795"></polygon>
-            </g>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8px"
+   height="12px"
+   viewBox="0 0 8 12"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="dex-mobile-column-toggler.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="709"
+     inkscape:window-height="487"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="19.666667"
+     inkscape:cx="4"
+     inkscape:cy="6"
+     inkscape:window-x="0"
+     inkscape:window-y="354"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Planshet---DEX---waves" />
+  <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Icon-blue-left</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Planshet---DEX---waves"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(-357.000000, -523.000000)">
+    <g
+       id="WAVES"
+       transform="translate(-3.000000, 59.000000)"
+       fill="#0055FF"
+       style="fill:#81d742;fill-opacity:1">
+      <g
+         id="bord-2"
+         transform="translate(364.000000, 470.000000) rotate(-90.000000) translate(-364.000000, -470.000000) translate(358.000000, 466.000000)"
+         style="fill:#81d742;fill-opacity:1">
+        <polygon
+           id="Icon-blue-left"
+           transform="translate(6.000000, 3.739428) rotate(-180.000000) translate(-6.000000, -3.739428) "
+           points="6 7.47885571 12 1.48764795 10.510581 -1.68126429e-13 6 4.5035598 1.48941896 1.12084286e-12 -1.56918e-12 1.48764795"
+           style="fill:#81d742;fill-opacity:1" />
+      </g>
     </g>
+  </g>
 </svg>

@@ -1,11 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>ava</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="ava" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#EDF0F4" x="0" y="0" width="120" height="120"></rect>
-        <image id="template-avatar4" x="10" y="10" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAqJJREFUeAHtnU1OVUEQRm/zMDh1pktwrCsgcQ0mjnRlOnIRmrADxmyBmUMk/lzjDk6669b7Qg7jr6uLc6hLiveAse/75kcOgYucVuzkPwGFhH0dKEQhYQTC2nFCFBJGIKwdJ0QhYQTC2nFCwoRc0n7GGDRam/v482VpwS/P70vrwWL0JyJOCATaFVNIF2l4j0IgqK6YQrpIw3sUAkF1xRTSRRreoxAIqiumkC7S8B6FQFBdsUE3yPJNnW7gv043pTCe/blG9Yo3esrZCUF2+kIK6WONblIIwtQXUkgfa3STQhCmvpBC+lijmxSCMPWFFNLHGt2kEISpL1S/qVdv4Pv+uhTHGHeoXvFG76aOqOeFfGSFOVGIQsIIhLXjhCgkjEBYO06IQsIIhLXjhIQJ4Zv6p0f2LnT6Gnj1Bl4Ntnij3z9foXfdOyHVIhfrKWQRYPVxhVQTXaynkEWA1ccVUk10sZ5CFgFWH1dINdHFegpZBFh9XCHVRBfr4d9T3x7GK3TXaWcbPSp2xtAOPw/KZdvc1M+oc/pqH1nT6I45qJBjuE5XVcg0umMOKuQYrtNVFTKN7piDCjmG63RVhUyjO+agQo7hOl2Vv6ZO/6Lc+8e3qJvT+IZy2/YC5mjsBwtevkO5rxe3JOe73wmlwIyPrDApClFIGIGwdpwQhYQRCGvHCVFIGIGwdpyQMCH1mzr9BD/8fcOiv7+zHE3VbuD0Vjd1Sios5yNLIWEEwtpxQhQSRiCsHSdEIWEEwtpxQhQSRiCsnfNt6hQE3uhhQfgaOKyGY27qGFVW0O8hWT78B/dhPhSikDQCYf34PUQhYQTC2nFCFBJGIKwdvKmH9f1k2/GRFaZWIQoJIxDWjhOikDACYe04IQoJIxDWjhOikDACYe38A6lfWecYER6AAAAAAElFTkSuQmCC"></image>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120px"
+   height="120px"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="dex-demo-avatar.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="1.9666667"
+     inkscape:cx="60"
+     inkscape:cy="101.51106"
+     inkscape:window-x="0"
+     inkscape:window-y="354"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ava" />
+  <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">ava</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="ava"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <rect
+       id="Rectangle"
+       fill="#EDF0F4"
+       x="0"
+       y="0"
+       width="120"
+       height="120" />
+    <circle
+       style="opacity:1;fill:#81d742;fill-opacity:1;stroke:none;stroke-width:1.70456696;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path825"
+       cx="60.508476"
+       cy="60"
+       r="50" />
+    <g
+       aria-label="TN"
+       transform="translate(92.033898,99.661017)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="flowRoot827">
+      <path
+         d="m -35.544922,-48.689881 h -8.867187 v 24.453125 h -4.902344 v -24.453125 h -8.789063 v -3.984375 h 22.558594 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+         id="path835" />
+      <path
+         d="m -9.2363281,-24.236756 h -4.9414059 l -12.675782,-20.175781 v 20.175781 h -4.941406 v -28.4375 h 4.941406 l 12.714844,20.253906 v -20.253906 h 4.9023439 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+         id="path837" />
     </g>
+  </g>
 </svg>

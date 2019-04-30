@@ -1,25 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="none" d="M0 0h100v100H0z"/>
-        <circle cx="50" cy="50" r="45" fill="#E9F4FF"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M62 30v47h30V30H62zm0-2h30a2 2 0 0 1 2 2v47a2 2 0 0 1-2 2H62a2 2 0 0 1-2-2V30a2 2 0 0 1 2-2z"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M58 36h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M58 38v9h38v-9z"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M64 43.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 21h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M58 23v9h38v-9z"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M64 28.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 51h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M58 53v9h38v-9z"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M64 58.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 66h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M58 68v9h38v-9z"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M64 73.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-        <path fill="#809ABD" fill-rule="nonzero" d="M8 49h37a2 2 0 0 1 2 2v23a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V51a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M8 51v23h37V51z"/>
-        <path fill="#809ABD" fill-rule="nonzero" d="M11 54v16h31V54H11zm0-2h31a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2V54a2 2 0 0 1 2-2zM4 73h45a2 2 0 0 1 2 2v1a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-1a2 2 0 0 1 2-2z"/>
-        <path fill="#FFF" d="M4 75v1a1 1 0 0 0 1 1h43a1 1 0 0 0 1-1v-1H4z"/>
-        <path fill="#A8C6DF" d="M47.5 27.5a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zm7 0a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zm-14 0a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zM25.5 43a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1zm0-7a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1z"/>
-        <rect width="2" height="5" x="24.5" y="28" fill="#E9F4FF" rx="1"/>
-        <path fill="#7995B9" fill-rule="nonzero" d="M25.5 35.5a8.5 8.5 0 1 1 0-17 8.5 8.5 0 0 1 0 17z"/>
-        <path fill="#FFF" d="M25.5 33.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13z"/>
-        <path fill="#7995B9" d="M26.916 27.001l1.414 1.415a1 1 0 0 1-1.414 1.414L25.5 28.416l-1.414 1.414a1 1 0 0 1-1.414-1.414L24.087 27l-1.414-1.414a1 1 0 0 1 1.414-1.414l1.414 1.414 1.415-1.414a1 1 0 0 1 1.414 1.414l-1.414 1.414z"/>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="icon-error.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata52">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview48"
+     showgrid="false"
+     inkscape:zoom="4.72"
+     inkscape:cx="46.453593"
+     inkscape:cy="45.015507"
+     inkscape:window-x="0"
+     inkscape:window-y="354"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g44" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g44">
+    <path
+       fill="none"
+       d="M0 0h100v100H0z"
+       id="path2" />
+    <circle
+       cx="50"
+       cy="50"
+       r="45"
+       fill="#E9F4FF"
+       id="circle4"
+       style="fill:#91f24a;fill-opacity:0.40000001" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M62 30v47h30V30H62zm0-2h30a2 2 0 0 1 2 2v47a2 2 0 0 1-2 2H62a2 2 0 0 1-2-2V30a2 2 0 0 1 2-2z"
+       id="path6"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M58 36h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"
+       id="path8"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M58 38v9h38v-9z"
+       id="path10" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M64 43.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 21h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"
+       id="path12"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M58 23v9h38v-9z"
+       id="path14" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M64 28.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 51h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"
+       id="path16"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M58 53v9h38v-9z"
+       id="path18" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M64 58.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM58 66h38a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H58a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"
+       id="path20"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M58 68v9h38v-9z"
+       id="path22" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M64 73.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+       id="path24"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#809ABD"
+       fill-rule="nonzero"
+       d="M8 49h37a2 2 0 0 1 2 2v23a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V51a2 2 0 0 1 2-2z"
+       id="path26"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M8 51v23h37V51z"
+       id="path28" />
+    <path
+       fill="#809ABD"
+       fill-rule="nonzero"
+       d="M11 54v16h31V54H11zm0-2h31a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2V54a2 2 0 0 1 2-2zM4 73h45a2 2 0 0 1 2 2v1a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-1a2 2 0 0 1 2-2z"
+       id="path30"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M4 75v1a1 1 0 0 0 1 1h43a1 1 0 0 0 1-1v-1H4z"
+       id="path32" />
+    <path
+       fill="#A8C6DF"
+       d="M47.5 27.5a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zm7 0a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zm-14 0a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 1 1zM25.5 43a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1zm0-7a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1z"
+       id="path34"
+       style="fill:#91f24a;fill-opacity:1" />
+    <rect
+       width="2"
+       height="5"
+       x="24.5"
+       y="28"
+       fill="#E9F4FF"
+       rx="1"
+       id="rect36" />
+    <path
+       fill="#7995B9"
+       fill-rule="nonzero"
+       d="M25.5 35.5a8.5 8.5 0 1 1 0-17 8.5 8.5 0 0 1 0 17z"
+       id="path38"
+       style="fill:#81d742;fill-opacity:1" />
+    <path
+       fill="#FFF"
+       d="M25.5 33.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13z"
+       id="path40" />
+    <path
+       fill="#7995B9"
+       d="M26.916 27.001l1.414 1.415a1 1 0 0 1-1.414 1.414L25.5 28.416l-1.414 1.414a1 1 0 0 1-1.414-1.414L24.087 27l-1.414-1.414a1 1 0 0 1 1.414-1.414l1.414 1.414 1.415-1.414a1 1 0 0 1 1.414 1.414l-1.414 1.414z"
+       id="path42"
+       style="fill:#81d742;fill-opacity:1" />
+  </g>
 </svg>
