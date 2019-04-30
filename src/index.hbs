@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Waves Client</title>
+    <title>TurtleNetwork Client</title>
     <link rel="icon" href="{{domain}}/img/favicon.ico" type="image/x-icon"/>
     <script>
         document.write('<script src="/init.js?_t=' + Date.now() + '"><\/script>');
@@ -66,10 +66,10 @@
             margin-bottom: 34px;
         }
 
-        .connection-problem .waves-logo {
+        .connection-problem .tn-logo {
             width: 100px;
             height: 21px;
-            background: url(/img/icons/waves_logo.svg) no-repeat;
+            background: url(/img/icons/tn_logo.svg) no-repeat;
             display: block;
             margin: 0 auto 80px auto;
         }
@@ -499,7 +499,7 @@
 </div>
 
 <div class="connection-problem">
-    <div class="waves-logo"><img src="/img/icons/waves_logo.svg"/></div>
+    <div class="tn-logo"><img src="/img/icons/tn_logo.svg"/></div>
     <img src="/img/no-preload/connection-error.svg" class="margin-3"/>
     <div class="connection-problem__headline">We couldn't connect to the server</div>
     <div class="connection-problem__description">Check your internet connection and try again.</div>
@@ -619,7 +619,7 @@
                 {
                     id: 'keeper',
                     data: {
-                        url: '/import/waveskeeper',
+                        url: '/import/turtleshell',
                         noLogin: true,
                         views: [{ name: 'main' }]
                     }
