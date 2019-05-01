@@ -1,5 +1,5 @@
-import { WAVES_ID } from '@waves/signature-generator';
-import { Asset, AssetPair, BigNumber, Money, OrderPrice } from '@waves/data-entities';
+import { TN_ID } from '@tn/signature-generator';
+import { Asset, AssetPair, BigNumber, Money, OrderPrice } from '@tn/data-entities';
 import { IHash, IMoneyFactory, IPriceMoneyFactory } from '../../interface';
 import { coinsMoneyFactory, normalizeAssetId, normalizeTime, priceMoneyFactory, toHash } from '../../utils/utils';
 import { Signal } from 'ts-utils';
@@ -114,7 +114,7 @@ export function prepareReservedBalance(data: IReservedBalanceApi): Promise<IHash
 
 function getAssetsFromOrderList(orders: Array<api.IOrder>): Array<string> {
     const hash = Object.create(null);
-    hash[WAVES_ID] = true;
+    hash[TN_ID] = true;
     return Object.keys(orders.reduce(getAssetsFromOrder, hash));
 }
 

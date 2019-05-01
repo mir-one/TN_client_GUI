@@ -1,7 +1,7 @@
 import { get as getConfig } from '../../config';
 import { get as getAssetPair } from '../pairs/pairs';
 import { addParam } from '../../utils/utils';
-import { AssetPair, Money, OrderPrice, BigNumber } from '@waves/data-entities';
+import { AssetPair, Money, OrderPrice, BigNumber } from '@tn/data-entities';
 import { request } from '../../utils/request';
 
 

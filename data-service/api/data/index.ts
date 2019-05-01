@@ -1,7 +1,7 @@
 import { request } from '../../utils/request';
 import { get } from '../../config';
-import { getProviderAssets, getProviderData, RESPONSE_STATUSES } from '@waves/oracle-data';
-import { TDataTxField, IProviderData, TProviderAsset } from '@waves/oracle-data/src/interface';
+import { getProviderAssets, getProviderData, RESPONSE_STATUSES } from '@tn/oracle-data';
+import { TDataTxField, IProviderData, TProviderAsset } from '@tn/oracle-data/src/interface';
 import { indexBy, prop } from 'ramda';
 
 

@@ -1,5 +1,5 @@
 import { IAssetPair } from '../../interface';
-import { Money, AssetPair } from '@waves/data-entities';
+import { Money, AssetPair } from '@tn/data-entities';
 
 export type TOrderStatus = 'Accepted' | 'Cancelled' | 'PartiallyFilled' | 'Filled';
 export type TOrderType = 'buy' | 'sell';

@@ -17,9 +17,9 @@ import {
     IData
 } from './interface';
 import { contains } from 'ts-utils';
-import { TRANSACTION_TYPE_NUMBER } from '@waves/signature-generator';
+import { TRANSACTION_TYPE_NUMBER } from '@tn/signature-generator';
 import { pipe, prop, uniqBy, tap } from 'ramda';
-import { ExchangeTxFilters } from '@waves/data-service-client-js';
+import { ExchangeTxFilters } from '@tn/data-service-client-js';
 
 
 export function list(address: string, limit = 100): Promise<Array<T_TX>> {

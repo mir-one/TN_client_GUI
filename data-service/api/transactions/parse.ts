@@ -1,5 +1,5 @@
-import { Asset, AssetPair, BigNumber, Money } from '@waves/data-entities';
-import { libs, TRANSACTION_TYPE_NUMBER, WAVES_ID } from '@waves/signature-generator';
+import { Asset, AssetPair, BigNumber, Money } from '@tn/data-entities';
+import { libs, TRANSACTION_TYPE_NUMBER, TN_ID } from '@tn/signature-generator';
 import { get } from '../assets/assets';
 import {
     IBurn,
@@ -53,7 +53,7 @@ const getFactory = (isTokens: boolean): IFactory => {
 // TODO Remove is tokens flag after support Dima's api
 export function parseTx(transactions: Array<T_API_TX>, isUTX: boolean, isTokens?: boolean): Promise<Array<T_TX>> {
     const hash = Object.create(null);
-    hash[WAVES_ID] = true;
+    hash[TN_ID] = true;
     transactions.forEach((tx) => getAssetsHashFromTx(tx, hash));
     const api = getSignatureApi();
 
@@ -108,7 +108,7 @@ export function parseTx(transactions: Array<T_API_TX>, isUTX: boolean, isTokens?
 }
 
 export function getAssetsHashFromTx(transaction: T_API_TX, hash = Object.create(null)): IHash<boolean> {
-    hash[WAVES_ID] = true;
+    hash[TN_ID] = true;
     switch (transaction.type) {
         case TRANSACTION_TYPE_NUMBER.REISSUE:
         case TRANSACTION_TYPE_NUMBER.BURN:
@@ -130,13 +130,13 @@ export function getAssetsHashFromTx(transaction: T_API_TX, hash = Object.create(
 
 export function remapOldTransfer(tx: txApi.IOldTransferTx): txApi.ITransfer {
     const type = TRANSACTION_TYPE_NUMBER.TRANSFER;
-    const assetId = WAVES_ID;
-    return { ...tx, type, assetId, attachment: '', feeAssetId: WAVES_ID };
+    const assetId = TN_ID;
+    return { ...tx, type, assetId, attachment: '', feeAssetId: TN_ID };
 }
 
 export function parseIssueTx(tx: txApi.IIssue, assetsHash: IHash<Asset>, isUTX: boolean): IIssue {
     const quantity = new BigNumber(tx.quantity);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     return { ...tx, precision: tx.decimals, quantity, fee, isUTX } as IIssue;
 }
 
@@ -151,13 +151,13 @@ export function parseTransferTx(tx: txApi.ITransfer, assetsHash: IHash<Asset>, i
 
 export function parseReissueTx(tx: txApi.IReissue, assetsHash: IHash<Asset>, isUTX: boolean): IReissue {
     const quantity = new Money(tx.quantity, assetsHash[normalizeAssetId(tx.assetId)]);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     return { ...tx, quantity, fee, isUTX };
 }
 
 export function parseBurnTx(tx: txApi.IBurn, assetsHash: IHash<Asset>, isUTX: boolean): IBurn {
     const amount = new Money(tx.amount, assetsHash[normalizeAssetId(tx.assetId)]);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     return { ...tx, amount, fee, isUTX };
 }
 
@@ -174,9 +174,9 @@ export function parseExchangeTx(tx: txApi.IExchange, assetsHash: IHash<Asset>, i
     const sellOrder = orderHash.sell;
     const exchangeType = getExchangeType(order1, order2, sender);
     const { price, amount, total } = getExchangeTxMoneys(factory, tx, assetsHash);
-    const buyMatcherFee = factory.money(tx.buyMatcherFee, assetsHash[WAVES_ID]);
-    const sellMatcherFee = factory.money(tx.sellMatcherFee, assetsHash[WAVES_ID]);
-    const fee = factory.money(tx.fee, assetsHash[WAVES_ID]);
+    const buyMatcherFee = factory.money(tx.buyMatcherFee, assetsHash[TN_ID]);
+    const sellMatcherFee = factory.money(tx.sellMatcherFee, assetsHash[TN_ID]);
+    const fee = factory.money(tx.fee, assetsHash[TN_ID]);
     return {
         ...tx,
         order1,
@@ -195,13 +195,13 @@ export function parseExchangeTx(tx: txApi.IExchange, assetsHash: IHash<Asset>, i
 }
 
 export function parseScriptTx(tx: txApi.ISetScript, assetsHash: IHash<Asset>, isUTX?: boolean): ISetScript {
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     const script = tx.script || '';
     return { ...tx, fee, isUTX, script };
 }
 
 export function parseAssetScript(tx: txApi.ISetAssetScript, assetsHash: IHash<Asset>, isUTX?: boolean): ISetAssetScript {
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     const script = tx.script || '';
     return { ...tx, fee, isUTX, script };
 }
@@ -217,8 +217,8 @@ export function getExchangeTxMoneys(factory: IFactory, tx: txApi.IExchange, asse
 }
 
 export function parseLeasingTx(tx: txApi.ILease, assetsHash: IHash<Asset>, isUTX: boolean): ILease {
-    const amount = new Money(tx.amount, assetsHash[WAVES_ID]);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const amount = new Money(tx.amount, assetsHash[TN_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     const recipient = normalizeRecipient(tx.recipient);
     const isActive = tx.status === 'active';
     return { ...tx, amount, fee, isUTX, recipient, isActive };
@@ -226,18 +226,18 @@ export function parseLeasingTx(tx: txApi.ILease, assetsHash: IHash<Asset>, isUTX
 
 export function parseCancelLeasingTx(tx: txApi.ICancelLeasing, assetsHash: IHash<Asset>, isUTX: boolean): ICancelLeasing {
     const lease = tx.lease && parseLeasingTx(tx.lease, assetsHash, false) || null;
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     return { ...tx, lease, fee, isUTX };
 }
 
 export function parseCreateAliasTx(tx: txApi.ICreateAlias, assetsHash: IHash<Asset>, isUTX: boolean): ICreateAlias {
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     return { ...tx, fee, isUTX };
 }
 
 export function parseMassTransferTx(tx: txApi.IMassTransfer, assetsHash: IHash<Asset>, isUTX: boolean): IMassTransfer {
     const attachment = parseAttachment(tx.attachment);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     const asset = assetsHash[normalizeAssetId(tx.assetId)];
 
     const transfers = tx.transfers.map((transfer) => ({
@@ -255,19 +255,19 @@ export function parseExchangeOrder(factory: IFactory, order: txApi.IExchangeOrde
     const price = factory.price(order.price, pair);
     const amount = factory.money(order.amount, assetsHash[assetPair.amountAsset]);
     const total = Money.fromTokens(amount.getTokens().times(price.getTokens()), price.asset);
-    const matcherFee = factory.money(order.matcherFee, assetsHash[WAVES_ID]);
+    const matcherFee = factory.money(order.matcherFee, assetsHash[TN_ID]);
     return { ...order, price, amount, matcherFee, assetPair, total };
 }
 
 export function parseDataTx(tx: txApi.IData, assetsHash: IHash<Asset>, isUTX: boolean): IData {
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
     const stringifiedData = JSON.stringify(tx.data, null, 4);
     return { ...tx, stringifiedData, fee, isUTX };
 }
 
 function parseSponsorshipTx(tx: txApi.ISponsorship, assetsHash: IHash<Asset>, isUTX: boolean): ISponsorship {
     const minSponsoredAssetFee = new Money(tx.minSponsoredAssetFee || 0, assetsHash[tx.assetId]);
-    const fee = new Money(tx.fee, assetsHash[WAVES_ID]);
+    const fee = new Money(tx.fee, assetsHash[TN_ID]);
 
     return { ...tx, fee, minSponsoredAssetFee, isUTX };
 }
