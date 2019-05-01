@@ -1,10 +1,10 @@
-import { utils, libs, config } from '@waves/signature-generator';
+import { utils, libs, config } from '@tn/signature-generator';
 import dictionary from '../utils/seedDictionary';
 import { get } from '../config';
 import { IKeyPair } from '../interface';
 
 config.set({
-    networkByte: (window as any).WavesApp.network.code.charCodeAt(0)
+    networkByte: (window as any).TnApp.network.code.charCodeAt(0)
 });
 
 export class Seed {

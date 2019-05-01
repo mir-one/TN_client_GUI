@@ -1,4 +1,4 @@
-import { Money } from '@waves/data-entities';
+import { Money } from '@tn/data-entities';
 import { path } from 'ramda';
 import { IPollAPI, Poll } from '../utils/Poll';
 import { balanceList } from '../api/assets/assets';
@@ -10,7 +10,7 @@ import { getAliasesByAddress } from '../api/aliases/aliases';
 import { PollControl } from './PollControl';
 import { change, get } from '../config';
 import { getOracleData, IOracleData } from '../api/data';
-import { DATA_PROVIDER_VERSIONS, STATUS_LIST, TProviderAsset } from '@waves/oracle-data';
+import { DATA_PROVIDER_VERSIONS, STATUS_LIST, TProviderAsset } from '@tn/oracle-data';
 
 
 export class DataManager {
@@ -65,31 +65,31 @@ export class DataManager {
         const lastData = <any>path(['oracle', 'lastData'], pollHash);
         const assets = lastData && lastData.assets || Object.create(null);
 
-        const WavesApp = (window as any).WavesApp;
+        const TnApp = (window as any).TnApp;
 
         const gateways = {
-            [WavesApp.defaultAssets.USD]: true,
-            [WavesApp.defaultAssets.EUR]: true,
-            [WavesApp.defaultAssets.TRY]: true,
-            [WavesApp.defaultAssets.BTC]: true,
-            [WavesApp.defaultAssets.ETH]: true,
-            [WavesApp.defaultAssets.LTC]: true,
-            [WavesApp.defaultAssets.ZEC]: true,
-            [WavesApp.defaultAssets.BCH]: true,
-            [WavesApp.defaultAssets.BSV]: true,
-            [WavesApp.defaultAssets.DASH]: true,
-            [WavesApp.defaultAssets.XMR]: true,
+            [TnApp.defaultAssets.USD]: true,
+            [TnApp.defaultAssets.EUR]: true,
+            [TnApp.defaultAssets.TRY]: true,
+            [TnApp.defaultAssets.BTC]: true,
+            [TnApp.defaultAssets.ETH]: true,
+            [TnApp.defaultAssets.LTC]: true,
+            [TnApp.defaultAssets.ZEC]: true,
+            [TnApp.defaultAssets.BCH]: true,
+            [TnApp.defaultAssets.BSV]: true,
+            [TnApp.defaultAssets.DASH]: true,
+            [TnApp.defaultAssets.XMR]: true,
         };
 
         const descriptionHash = {
-            WAVES: { en: 'Waves is a blockchain ecosystem that offers comprehensive and effective blockchain-based tools for businesses, individuals and developers. Waves Platform offers unprecedented throughput and flexibility. Features include the LPoS consensus algorithm, Waves-NG protocol and advanced smart contract functionality.' }
+            TN: { en: 'TurtleNetwork is a purpose-driven innovative blockchain startup, with the backing of a strong & supportive community. Advisors assist, guide & everyone who contributes is either a volunteer or helping in exchange for bounties.' }
         };
 
         const gatewayAsset = {
             status: 3,
             version: DATA_PROVIDER_VERSIONS.BETA,
             id,
-            provider: 'WavesPlatform',
+            provider: 'TurtleNetwork',
             ticker: null,
             link: null,
             email: null,
@@ -97,8 +97,8 @@ export class DataManager {
             description: descriptionHash[id]
         };
 
-        if (id === 'WAVES') {
-            return { status: STATUS_LIST.VERIFIED, description: descriptionHash.WAVES } as any;
+        if (id === 'TN') {
+            return { status: STATUS_LIST.VERIFIED, description: descriptionHash.TN } as any;
         }
 
         if (gateways[id]) {

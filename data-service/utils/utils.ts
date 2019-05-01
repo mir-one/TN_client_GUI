@@ -1,6 +1,6 @@
 import { IAssetPair, IHash } from '../interface';
-import { WAVES_ID } from '@waves/signature-generator';
-import { BigNumber, Asset, Money, AssetPair, OrderPrice } from '@waves/data-entities';
+import { TN_ID } from '@tn/signature-generator';
+import { BigNumber, Asset, Money, AssetPair, OrderPrice } from '@tn/data-entities';
 import { get } from '../api/assets/assets';
 import { get as configGet, timeDiff } from '../config';
 
@@ -48,11 +48,11 @@ export function normalizeUrl(url: string): string {
 }
 
 export function normalizeAssetId(assetId: string | void) {
-    return assetId || WAVES_ID;
+    return assetId || TN_ID;
 }
 
 export function idToNode(id: string): string {
-    return id === WAVES_ID ? '' : id;
+    return id === TN_ID ? '' : id;
 }
 
 export function toHash<T, K extends keyof T>(list: Array<T>, property: K): IHash<T> {
@@ -157,7 +157,7 @@ export function defer<T>(): TDefer<T> {
 }
 
 export function stringifyJSON(data: any): string {
-    return (window as any).WavesApp.stringifyJSON(data);
+    return (window as any).TnApp.stringifyJSON(data);
 }
 
 
