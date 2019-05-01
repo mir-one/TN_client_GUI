@@ -1,4 +1,4 @@
-import { Adapter, getAdapterByType, adapterList } from '@waves/signature-adapter';
+import { Adapter, getAdapterByType, adapterList } from '@tn/signature-adapter';
 
 let API: Adapter;
 
